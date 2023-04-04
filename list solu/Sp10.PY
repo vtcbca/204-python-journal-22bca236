@@ -1,4 +1,4 @@
-def consecutivecoomon(li):
+def conseecoomon(li):
     c=0
     b=[]
     for i in range(len(li)-2):
@@ -6,15 +6,16 @@ def consecutivecoomon(li):
             b.append(li[i])
             c+=1
     if c>0:
-        print(f"Consecutive common numbers are {n} as follow:{b}")
+        print(f"Consecutive common numbers are {c} as follow:{b}")
     else:
         printf("No consecutive number!!")
-def takeinput():
+def takeinp():
     n=[]
     b=int(input("How many number you want to enter in list:"))
     for i in range(b):
+  
         c=int(input("Enter value:"))
         n.append(c)
-    consecutivecoomon(n)        
+    consecoomon(n)        
 
-takeinput()    
+takeinp()    
