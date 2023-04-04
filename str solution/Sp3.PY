@@ -5,8 +5,8 @@ def evenstr(a):
     for i in a:
         if(len(i)%2==0):
             s.append(i)
-            count=count+1
-    if(count>0):
+            c=c+1
+    if(c>0):
         print('The number of even string is {} and string :{}'.format(c,s))
     else:
         print("No even string available!")
