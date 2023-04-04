@@ -5,9 +5,9 @@ def changename(li):
     for i in li:
         if a in i: 
             b=i.replace(".c",".py")
-            filechange.append(b)
+            filename.append(b)
         else:
-            filechange.append(i)    
+            filename.append(i)    
 
     print(filename)    
 
